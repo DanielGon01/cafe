@@ -1,0 +1,38 @@
+*{
+    margin: o;
+}
+@font-face{
+    font-family: font_star;
+    src:url("cafegelado.tff");
+}
+@font-face {
+    font-family: font_star2;
+    src:url(cafege.tff);
+}
+header{
+    height: 853px;
+    background-image: url(pexels-rafel-al-saadi-180066.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;/*ajustar imagem background*/
+    background-position: center;/*ajustar imagem backgriud*/
+}
+nav ul{
+    height: 70px;
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: font_star;
+    font-size: 25px;
+    list-style-type:none ;
+}
+li{
+    font-family: font_star;
+
+}
+h1{
+    color: floralwhite;
+    text-align: center;
+    font-family: font_star2;
+}
